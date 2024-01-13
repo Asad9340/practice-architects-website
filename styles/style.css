@@ -110,6 +110,7 @@ header {
   color: #131313;
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .team-quick {
   color: #727272;
@@ -200,6 +201,27 @@ header {
 }
 /* Fact section style ends here */
 
+/* Sponsors section style starts here */
+.sponsors-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.sponsors-section {
+  text-align: center;
+}
+.sponsors-img-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.sponsors-img-container img {
+  height: 50px;
+  width: 150px;
+  padding-bottom: 15px;
+}
+/* Sponsors section style ends here */
+
 /* Responsive for mobile device max width is 576 */
 @media screen and (max-width: 576px) {
   .paragraph {
@@ -250,11 +272,15 @@ header {
     bottom: -63px;
     left: 281px;
   }
-  .fact-award{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+  .fact-award {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 20px 20px;
+  }
+  .sponsors-img-container{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
