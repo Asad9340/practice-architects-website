@@ -146,7 +146,34 @@ header {
   margin-bottom: 10px;
 }
 .features-section img {
-  width: 80%;
+  margin-top: 20px;
+  width: 100%;
+}
+.badge-container {
+  position: relative;
+}
+.experience-badge {
+  width: 342px;
+  height: 200px;
+  background: #ff900e;
+  text-align: center;
+  padding: 45px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -20px;
+  left: -100px;
+}
+.badge-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.badge-description {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
 }
 /* Features section style ends here */
 
@@ -181,6 +208,25 @@ header {
   .btn {
     margin: 20px auto;
   }
+  .features-section {
+    margin: 130px auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr;
+  }
+  .badge-container img {
+    width: 80%;
+  }
+  .badge-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .experience-badge {
+    width: 250px;
+    height: 150px;
+    bottom: -63px;
+    left: 281px;
+  }
 }
 
 /* Responsive for tablet device  */
@@ -202,5 +248,19 @@ header {
   }
   .btn {
     margin: 20px auto;
+  }
+  .features-section {
+    margin: 130px auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr;
+  }
+  .badge-container img {
+    width: 80%;
+    margin-left: 140px;
+  }
+  .experience-badge {
+    bottom: -80px;
+    left: 10px;
   }
 }
