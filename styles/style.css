@@ -274,10 +274,7 @@ footer {
     line-height: 40px;
   }
   .experience-badge {
-    width: 250px;
-    height: 150px;
-    bottom: -63px;
-    left: 281px;
+    display: none;
   }
   .fact-award {
     display: grid;
